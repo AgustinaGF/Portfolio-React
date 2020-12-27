@@ -1,8 +1,12 @@
 .about-container {
     display: flex;
     background-color: #c8c7d3;
-    /* height: 100vh; */
-    padding: 100px 0 100px 0;
+    padding: 6em 2em 6em 2em;
+    /* height: 70vh; */
+    /* padding: 100px 0 100px 0; */
+    /* justify-content: space-around; */
+    flex-direction: row;
+    align-items: center;
 }
 
 .about-desc {
@@ -23,12 +27,15 @@
 .text {
     line-height: 1.5;
     text-align: justify;
+    /* font-size: 15px; */
 }
 
 .about-img {
     /* max-height: 60vh;
-    object-fit: cover; */
-    width: 45%;
+ 
+    /* width: 35%; */
+    height: 600px;
     display: flex;
     align-self: center;
+    object-fit: cover;
 }
