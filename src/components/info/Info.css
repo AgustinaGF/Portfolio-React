@@ -1,0 +1,18 @@
+.info-container {
+    padding: 6em 2em 6em 2em;
+    background-color: #c8c7d3;
+}
+
+.info-title {
+    margin-bottom: 2em;
+    margin-left: 3em;
+    font-size: 28px;
+    font-family: "Dancing Script", sans-serif;
+    color: #7484bf;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -4,7 +4,8 @@ import Cover from "./components/cover/Cover";
 import NavBar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Slider from "./components/slider/Slider";
-
+import Info from "./components/info/Info";
+import Footer from "./components/footer/Footer";
 function App() {
 	const [scrollHeight, setScrollHeight] = useState(0);
 	const handleScroll = () => {
@@ -17,10 +18,11 @@ function App() {
 
 	return (
 		<div className="App">
-			<NavBar isScrolling={scrollHeight} />
-			<Cover />
+			<NavBar isScrolling={scrollHeight} /> <Cover />
 			<About />
+			<Info />
 			<Slider />
+			<Footer />
 		</div>
 	);
 }
