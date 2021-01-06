@@ -7,7 +7,7 @@ const Slider = () => {
 	return (
 		<div className="carousel-cointainer">
 			<div className="carousel-title">
-				<h2 className="title">Mis Proyectos</h2>
+				<h2 className="title-carousel">Mis Proyectos</h2>
 			</div>
 			<Carousel
 				arrows

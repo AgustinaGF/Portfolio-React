@@ -1,6 +1,7 @@
 .info-container {
     padding: 6em 2em 6em 2em;
-    background-color: #c8c7d3;
+    background-color: #eeebec;
+    /* max-width: 1200px; */
 }
 
 .info-title {
@@ -8,7 +9,9 @@
     margin-left: 3em;
     font-size: 28px;
     font-family: "Dancing Script", sans-serif;
-    color: #7484bf;
+    color: #96918d;
+    text-decoration: underline;
+    text-shadow: 0 0 black;
 }
 
 .logos {

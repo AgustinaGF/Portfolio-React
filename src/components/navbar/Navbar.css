@@ -10,13 +10,14 @@
 }
 
 .scrolling {
-    background-color: #c8c7d3;
+    background-color: #bba08d;
     transition: all 0.5s ease;
+    border-bottom: #8c8064 solid 2px;
 }
 
 .navbar-logo {
     height: 80px;
     line-height: 80px;
-    color: white;
+    color: #8c8064;
     cursor: pointer;
 }

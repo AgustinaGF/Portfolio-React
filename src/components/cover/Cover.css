@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: #96918d solid 2px;
 }
 
 .video {
@@ -20,12 +21,14 @@
 .cover-container>h1 {
     font-size: 100px;
     font-family: "Lobster", sans-serif;
-    color: #2a3260;
+    color: #ccb398;
+    text-shadow: 0 0 black;
 }
 
 .cover-container>p {
     margin-top: 8px;
     font-size: 32px;
     font-family: "Lobster", sans-serif;
-    color: #2a3260;
+    color: #ccb398;
+    text-shadow: 0 0 black;
 }

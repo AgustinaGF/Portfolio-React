@@ -1,7 +1,7 @@
 .about-container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     display: flex;
-    background-color: #c8c7d3;
+    background-color: #eeebec;
     padding: 6em 2em 6em 2em;
     /* height: 70vh; */
     /* padding: 100px 0 100px 0; */
@@ -22,7 +22,9 @@
     margin-bottom: 30px;
     font-size: 28px;
     font-family: "Dancing Script", sans-serif;
-    color: #7484bf;
+    color: #96918d;
+    text-decoration: underline;
+    text-shadow: 0 0 black;
 }
 
 .text {
