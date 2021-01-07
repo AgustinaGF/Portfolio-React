@@ -1,19 +1,27 @@
+.container-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3%;
+    margin: 2em;
+}
+
 .carousel-cointainer {
-    display: flex;
+    /* display: flex;
     vertical-align: center;
-    align-items: center;
+    align-items: center; */
     background-color: #eeebec;
     padding: 30px 0 30px 0;
     margin-bottom: 60vh;
 }
 
 .carousel-title {
-    width: 20%;
-    padding: 0 100px 0 100px;
+    /* width: 20%; */
+    margin-bottom: 3em;
+    margin-left: 7em;
 }
 
 .title-carousel {
-    text-align: center;
     text-decoration: underline;
     font-size: 28px;
     font-family: "Dancing Script", sans-serif;
@@ -23,7 +31,8 @@
 }
 
 .slides-container {
-    height: 80%;
+    /* height: 80%;
+    border-radius: 10px; */
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -31,24 +40,29 @@
 }
 
 .slides-container>img {
-    object-fit: contain;
+    min-height: 100%;
+    max-width: 100%;
+    /* object-fit: contain; */
     transition: all 0.2s ease-in-out;
-    height: 100%;
+    /* height: 100%; */
 }
 
-.slides-container:hover>img {
-    transform: scale (1.2);
-    opacity: 0.7;
-}
-
-.slide-desc {
-    background-color: black;
+.slides-container:hover>.slide-desc {
+    display: block;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 70%;
-    border-top-left-radius: 20px;
-    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* opacity: 0.8;
+    transform: scale (1.2); */
+    /* opacity: 0.7; */
+}
+
+.slide-desc {
+    display: none;
 }
 
 .slide-desc>span {
@@ -56,22 +70,4 @@
     display: block;
     font-size: 22px;
     padding: 20px 0 20px 10px;
-}
-
-.BrainhubCarousel__arrows {
-    background-color: white;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-.BrainhubCarousel__arrows>span {
-    border-color: black;
-}
-
-.BrainhubCarousel__arrows:hover {
-    background-color: white !important;
-}
-
-.BrainhubCarousel__arrows:hover>span {
-    border-color: black !important;
 }

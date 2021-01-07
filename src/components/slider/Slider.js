@@ -9,16 +9,7 @@ const Slider = () => {
 			<div className="carousel-title">
 				<h2 className="title-carousel">Mis Proyectos</h2>
 			</div>
-			<Carousel
-				arrows
-				slidesPerPage={3}
-				infinite
-				animationSpeed={200}
-				centered
-				offset={50}
-				itemWidth={400}
-				slides={Slides}
-			/>
+			<div className="container-images"> {Slides} </div>
 		</div>
 	);
 };
