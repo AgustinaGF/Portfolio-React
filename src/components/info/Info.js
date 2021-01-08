@@ -2,7 +2,7 @@ import React from "react";
 import "./Info.css";
 const Info = () => {
 	return (
-		<div className="info-container">
+		<div className="info-container" id="habilidades">
 			<div className="info">
 				<h3 className="info-title">Habilidades tecnologicas</h3>
 				<div className="logos">

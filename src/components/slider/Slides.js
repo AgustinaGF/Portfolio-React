@@ -15,8 +15,8 @@ const slidesInfo = [
 	},
 	{
 		src: gifs,
-		alt: "Proyecto Gifs",
-		des: "Proyecto Gifs",
+		alt: "Proyecto GifOS",
+		des: "Proyecto GifOS",
 		text:
 			"Sitio Web de Gifs en donde se utilizo Javascript para darle funcionalidad de busqueda, integracion con la API de Ghipy para crear y ver Gifs.",
 		link: "https://proyecto-gifs.netlify.app/",
@@ -43,10 +43,10 @@ const slides = slidesInfo.map((slide) => (
 	<div className="slides-container">
 		<img src={slide.src} alt={slide.alt} />{" "}
 		<div className="slide-desc">
-			<span> {slide.des} </span>
-			<span>{slide.text}</span>
+			<span className="slide-title"> {slide.des} </span>
+			<span className="slide-text">{slide.text}</span>
 			<a href={slide.link} target="blank">
-				<i class="fas fa-link"></i>
+				<i class="fas fa-link link fa-2x"></i>
 			</a>
 		</div>
 	</div>

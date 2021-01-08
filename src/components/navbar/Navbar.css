@@ -1,23 +1,54 @@
 .navbar {
     position: fixed;
     top: 0;
-    background-color: transparent;
     width: 100%;
     height: 80px;
     padding-left: 50px;
     font-size: 20px;
     z-index: 1;
+    display: none;
 }
 
 .scrolling {
     background-color: #bba08d;
     transition: all 0.5s ease;
     border-bottom: #8c8064 solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.navbar-logo {
+.sobreMi {
     height: 80px;
     line-height: 80px;
     color: #8c8064;
     cursor: pointer;
+}
+
+.habilidades {
+    height: 80px;
+    line-height: 80px;
+    color: #8c8064;
+    cursor: pointer;
+}
+
+.proyectos {
+    height: 80px;
+    line-height: 80px;
+    color: #8c8064;
+    cursor: pointer;
+}
+
+.contacto {
+    height: 80px;
+    line-height: 80px;
+    color: #8c8064;
+    cursor: pointer;
+}
+
+.sobreMi:hover,
+.habilidades:hover,
+.proyectos:hover,
+.contacto:hover {
+    text-decoration: underline;
 }
