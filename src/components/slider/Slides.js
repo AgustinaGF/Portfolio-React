@@ -43,12 +43,12 @@ const slides = slidesInfo.map((slide) => (
 	<div className="slides-container">
 		<img src={slide.src} alt={slide.alt} />{" "}
 		<div className="slide-desc">
-			<span className="slide-title"> {slide.des} </span>
-			<span className="slide-text">{slide.text}</span>
+			<span className="slide-title"> {slide.des} </span>{" "}
+			<span className="slide-text"> {slide.text} </span>{" "}
 			<a href={slide.link} target="blank">
-				<i class="fas fa-link link fa-2x"></i>
-			</a>
-		</div>
+				<i class="fas fa-link link1 fa-2x"> </i>{" "}
+			</a>{" "}
+		</div>{" "}
 	</div>
 ));
 export default slides;

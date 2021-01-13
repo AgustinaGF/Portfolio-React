@@ -12,7 +12,7 @@ const Info = () => {
 					<i class="fab fa-js fa-9x" aria-hidden="true"></i>
 					<i class="fab fa-node fa-9x"></i>
 					<i class="fab fa-bootstrap fa-9x"></i>
-					<i class="fab fa-sass fa-10x fa-9x" aria-hidden="true"></i>
+					<i class="fab fa-sass  fa-9x" aria-hidden="true"></i>
 				</div>
 			</div>
 		</div>

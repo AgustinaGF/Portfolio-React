@@ -30,7 +30,9 @@
 .text {
     line-height: 1.5;
     text-align: justify;
-    /* font-size: 15px; */
+    font-family: "Catamaran", sans-serif;
+    font-size: 15px;
+    color: #bdb9b7;
 }
 
 .about-img {
@@ -41,4 +43,41 @@
     display: flex;
     align-self: center;
     /* object-fit: cover; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    * {
+        padding: 0%;
+        border: 0px;
+        margin: 0%;
+    }
+    .about-container {
+        min-width: 320px;
+        max-width: 414px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-desc {
+        min-width: 320px;
+        max-width: 414px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+    .about-img {
+        height: 500px;
+    }
+    .about-img img {
+        /* height: 500px; */
+        min-width: 300px;
+        max-width: 320px;
+        margin-left: 4px;
+        margin-right: 4px;
+        object-fit: contain;
+    }
+    .title {
+        text-align: center;
+    }
 }

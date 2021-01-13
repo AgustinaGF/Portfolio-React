@@ -86,18 +86,7 @@
         margin: 0%;
     }
     .footer {
-        max-width: 415px;
+        max-width: 414px;
         min-width: 320px;
-    }
-    .footer-contact {
-        margin-left: 0%;
-        margin-bottom: 1em;
-    }
-    .footer-sns {
-        margin-left: 0%;
-        margin-bottom: 2em;
-    }
-    .desing-by {
-        margin-left: 0%;
     }
 }

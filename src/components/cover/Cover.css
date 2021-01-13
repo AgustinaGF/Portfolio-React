@@ -35,3 +35,26 @@
     color: #ccb398;
     text-shadow: 0 0 black;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+    html {
+        scroll-behavior: smooth;
+    }
+    * {
+        padding: 0%;
+        border: 0px;
+        margin: 0%;
+    }
+    .cover-container {
+        max-width: 415px;
+        min-width: 320px;
+    }
+    .video {
+        max-width: 415px;
+        min-width: 320px;
+    }
+    .cover-container>h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+}
