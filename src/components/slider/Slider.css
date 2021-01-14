@@ -103,13 +103,31 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 2%;
-        margin: 2em;
+        margin-bottom: 5em;
     }
     .slide-text {
         font-size: 15px;
-        padding: 0px 0 20px 10px;
+        padding: 15px 5px 10px 10px;
     }
     .slide-title {
+        font-size: 20px;
+    }
+    .link1 {
+        margin-left: 1em;
         font-size: 25px;
+        bottom: 0%;
+        margin-bottom: 1em;
+        position: absolute;
+    }
+    .slides-container:hover>.slide-desc {
+        padding-top: 1em;
+    }
+    .slides-container {
+        height: 300px;
+    }
+    .carousel-title {
+        /* width: 20%; */
+        margin-bottom: 3em;
+        margin-left: 5em;
     }
 }

@@ -26,7 +26,7 @@ const slidesInfo = [
 		alt: "Proyecto Delilah Resto",
 		des: "Proyecto Delilah Resto",
 		text:
-			"El proyecto consistió en crear una API que permita realizar operaciones online para un restaurante. Se utilizo NodeJS,Express,Sequelize,JWT,Dotenv,bcrypt,MySQL,Postman",
+			"En este proyecto se integro una API que permite realizar operaciones online para un restaurante. Se utilizo NodeJS, Express, Sequelize, JWT, Dotenv, bcrypt, MySQL y Postman",
 		link: "https://github.com/AgustinaGF/Proyecto-Delilah-Resto.git",
 	},
 	{
