@@ -5,14 +5,14 @@ const About = () => {
 	return (
 		<div className="about-container" id="sobreMi">
 			<div className="about-desc">
-				<h3 className="title">Sobre Mi </h3>{" "}
+				<h3 className="title"> Sobre Mí </h3>{" "}
 				<p className="text">
 					Soy Desarrolladora Web Full Stack, innovadora, creativa y en constante
 					crecimiento.Hoy en día me encuentro en la búsqueda de poder
 					desarrollarme laboralmente como developer y así poder seguir
 					aprendiendo un poco mas acerca de este apasionante mundo creativo.Te
 					cuento un poco sobre mi historia, mi formación profesional es en
-					Derecho, soy Abogada, pero desde que soy chica me interese por
+					Derecho, soy Abogada, pero desde que soy chica me interesé por
 					programar, por eso durante muchos años fui formándome de manera
 					autodidacta, hasta que al fin tome la decisión de inscribirme en
 					Acamica para realizar el curso de Desarrollo Web Full Stack y creo que

@@ -1,7 +1,6 @@
 .info-container {
     padding: 6em 2em 6em 2em;
     background-color: #eeebec;
-    /* max-width: 1200px; */
 }
 
 .info-title {
@@ -51,6 +50,11 @@
 }
 
 .fa-sass {
+    color: #bdb9b7;
+    text-shadow: 0 0 black;
+}
+
+#github {
     color: #bdb9b7;
     text-shadow: 0 0 black;
 }
@@ -114,6 +118,11 @@
         justify-self: center;
     }
     .fa-sass {
+        font-size: 7em;
+        display: flex;
+        justify-self: center;
+    }
+    #github {
         font-size: 7em;
         display: flex;
         justify-self: center;

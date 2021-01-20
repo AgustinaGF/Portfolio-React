@@ -8,9 +8,6 @@
     justify-content: center;
     align-items: center;
     border-bottom: #96918d solid 2px;
-    /* background-color: #000000ed;
-    opacity: 0.8; */
-    /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 }
 
 .video {
@@ -45,16 +42,12 @@
         border: 0px;
         margin: 0%;
     }
-    .cover-container {
-        max-width: 415px;
-        min-width: 320px;
-    }
-    .video {
-        max-width: 415px;
-        min-width: 320px;
-    }
     .cover-container>h1 {
-        font-size: 70px;
+        font-size: 65px;
         text-align: center;
+    }
+    .cover-container>p {
+        font-size: 30px;
+        margin-top: 10px;
     }
 }

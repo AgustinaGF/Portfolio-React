@@ -5,9 +5,9 @@ import Slides from "./Slides";
 import "./Slider.css";
 const Slider = () => {
 	return (
-		<div className="carousel-cointainer" id="proyectos">
-			<div className="carousel-title">
-				<h2 className="title-carousel"> Mis Proyectos </h2>{" "}
+		<div className="card-container" id="proyectos">
+			<div className="card-title">
+				<h2 className="title-card"> Mis Proyectos </h2>{" "}
 			</div>{" "}
 			<div className="container-images"> {Slides} </div>{" "}
 		</div>
