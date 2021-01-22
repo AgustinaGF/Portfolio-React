@@ -75,3 +75,41 @@
         text-align: center;
     }
 }
+
+
+/* ipad */
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+    * {
+        padding: 0%;
+        border: 0px;
+        margin: 0%;
+    }
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+    .about-desc {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .about-img {
+        height: 500px;
+    }
+    .about-img img {
+        min-width: 300px;
+        max-width: 320px;
+        margin-left: 4px;
+        margin-right: 4px;
+        object-fit: contain;
+    }
+    .title {
+        text-align: center;
+    }
+    .text {
+        margin: 1em;
+        text-align: center;
+    }
+}

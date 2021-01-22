@@ -85,6 +85,29 @@
         border: 0px;
         margin: 0%;
     }
+    .footer {
+        min-width: 320px;
+    }
+    .footer-contact {
+        margin-left: 0%;
+        margin-bottom: 1em;
+    }
+    .footer-sns {
+        margin-left: 0%;
+        margin-bottom: 2em;
+    }
+    .desing-by {
+        margin-left: 0%;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+    * {
+        padding: 0%;
+        border: 0px;
+        margin: 0%;
+    }
     .footer-contact {
         margin-left: 0%;
         margin-bottom: 1em;

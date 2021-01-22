@@ -71,6 +71,66 @@
         border: 0px;
         margin: 0%;
     }
+    .navbar {
+        padding-left: 0px;
+    }
+    .scrolling ul li {
+        display: block;
+        border-top: 1px solid #333333;
+        padding: 13px;
+    }
+    .scrolling ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+    }
+    #iconoMenu {
+        font-style: normal;
+        font-size: 1.2em;
+        margin-top: 1em;
+        right: 5%;
+        display: inline-block;
+        position: absolute;
+        color: #8c8064;
+    }
+    .visible~.lista {
+        display: block;
+        background: #bba08d;
+        width: 100%;
+        right: 0;
+    }
+    .visible~#iconoClose {
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        color: #8c8064;
+    }
+    .close {
+        position: relative;
+        font-style: normal;
+        font-size: 1.2em;
+        right: 5%;
+        margin-top: 1em;
+    }
+    /*Estilo Lista desplegable*/
+    .scrolling ul li a {
+        color: #8c8064;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: "Lobster", sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 1024px) {
+    * {
+        padding: 0%;
+        border: 0px;
+        margin: 0%;
+    }
+    .navbar {
+        padding-left: 0px;
+    }
     .scrolling ul li {
         display: block;
         border-top: 1px solid #333333;
