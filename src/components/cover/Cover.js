@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Cover.css";
 import coverVideo from "../../media/video.mp4";
-import coverImage from "../../media/imagen.png";
+import coverImage from "../../media/loading.gif";
 
 const Cover = () => {
 	const [isVideoLoaded, setIsVideoLoaded] = React.useState(false);
@@ -10,11 +10,9 @@ const Cover = () => {
 	};
 	return (
 		<div className="cover-container">
-			<img
-				src={coverImage}
-				className={`loading ${isVideoLoaded === true ? "load" : null}`}
-				alt="thumb"
-			/>
+			<div className={`loading ${isVideoLoaded === true ? "load" : null}`}>
+				<img src={coverImage} alt="thumb" />
+			</div>
 			<video
 				className="video"
 				src={coverVideo}

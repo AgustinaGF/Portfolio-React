@@ -26,7 +26,7 @@ const slidesInfo = [
 		alt: "Proyecto Delilah Resto",
 		des: "Proyecto Delilah Resto",
 		text:
-			"En este proyecto se integro una API que permite realizar operaciones online para un restaurante. Se utilizo NodeJS, Express, Sequelize, JWT, Dotenv, bcrypt, MySQL y Postman",
+			"En este proyecto se integro una API que permite realizar operaciones online para un restaurante. Se utilizo NodeJS, Express, Sequelize, JWT, Dotenv, bcrypt, MySQL y Postman.",
 		link: "https://github.com/AgustinaGF/Proyecto-Delilah-Resto.git",
 	},
 	{
@@ -34,7 +34,7 @@ const slidesInfo = [
 		alt: "Portfolio",
 		des: "Portfolio",
 		text:
-			"Web Desarrollada con React.Js. Es la pagina que te encuentras visitando ahora",
+			"Web Desarrollada con React.Js. Es la pagina que te encuentras visitando ahora.",
 		link: "https://github.com/AgustinaGF/Portfolio-React.git",
 	},
 ];
